@@ -5,7 +5,7 @@
 
 }  
 
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Sacramento&display=swap');
 
 
 
@@ -13,11 +13,11 @@ body{
     background: url("https://64.media.tumblr.com/a8ab45586722dd77abe14718acdb9aac/tumblr_pfru4vpNGI1w3y4ilo1_r1_640.gifv");
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
 
 }
 form{
-    font-family: 'Sacramento', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
     flex-direction: column;
     display:flex;
     justify-content: center;
