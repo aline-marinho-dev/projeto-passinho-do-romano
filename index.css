@@ -4,13 +4,20 @@
     box-sizing: border-box;
 
 }  
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+
 body{
     background: url("https://64.media.tumblr.com/a8ab45586722dd77abe14718acdb9aac/tumblr_pfru4vpNGI1w3y4ilo1_r1_640.gifv");
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Sacramento', cursive;
 
 }
 form{
+    font-family: 'Sacramento', cursive;
     flex-direction: column;
     display:flex;
     justify-content: center;
