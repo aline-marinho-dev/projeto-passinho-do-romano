@@ -8,12 +8,13 @@ var resposta = document.querySelector('#resposta');
 enviar.addEventListener('click', function (event) {
             var palavra = document.querySelector('#palavra').value;
             var resposta = document.querySelector('#resposta');
+            var resultado = document.querySelector('#resultado');
             event.preventDefault();
 
             if (opcoes.selectedIndex == 2 && decodificar.checked == true) {
-                resposta.innerHTML = atob(palavra);
+                resultado.value = atob(palavra);
             } else if (opcoes.selectedIndex == 2 && codificar.checked == true) {
-                resposta.innerHTML = btoa(palavra);
+                resultado.value = btoa(palavra);
     }
 })
 
@@ -27,7 +28,7 @@ opcoes.addEventListener('change', function(event) {
     })
     
 
-    
+
     
     
     
